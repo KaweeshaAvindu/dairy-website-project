@@ -1,0 +1,127 @@
+body {margin:0;}
+
+
+.hello{
+      position:absolute;
+      heigh:auto;
+      left: 510px;
+      width: 49px;                    
+}
+
+
+
+
+.main {
+  margin-top: 30px;
+}
+
+
+
+h2 {
+    font-family: verdana, serif;
+    border-bottom: 3px solid #cc9900;
+    color: DodgerBlue;
+    font-size:20px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+select {
+        width: 150px;
+        margin: 10px;
+    }
+    select:focus {
+        min-width: 150px;
+        width: auto;
+    } 
+
+    a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: SlateBlue;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+}
+table {
+    width:100%;
+}
+
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+table tr:nth-child(odd) {
+    background-color: hsl(0, 100%, 75%);">hsl(0, 100%, 75%);
+}
+table tr:nth-child(even) {
+    background-color:background-color: hsl(0, 100%, 90%);">hsl(0, 100%, 90%);
+}
+
+
+		
