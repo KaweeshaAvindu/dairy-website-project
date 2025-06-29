@@ -26,27 +26,26 @@ h2 {
 
 
 .navbar {
-  overflow: hidden;
+  display: flex;
+  align-items: center;
   background-color: #333;
-  position: fixed; 
-  top: 0; 
-  width: 100%;
+  padding: 10px;
 }
 
 .navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  color: #000;
   text-decoration: none;
+  background-color: white;
+  border: 1px solid green;
+  padding: 8px 14px;
+  margin-right: 10px;
+  border-radius: 4px;
 }
 
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  background-color: green;
+  color: white;
 }
-
 select {
         width: 150px;
         margin: 10px;
@@ -135,37 +134,31 @@ table tr:nth-child(even) {
    Contact Us Page Styling
 ------------------------------ */
 
-/* Contact form container */
+/* Contact form layout */
 .contact-form {
   max-width: 600px;
   margin: 40px auto;
   padding: 25px;
-  background: #f9f9f9;
-  border-radius: 10px;
+  background: #f4f4f4;
+  border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Input fields and textarea */
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   padding: 10px;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 15px;
-  box-sizing: border-box;
+  border-radius: 4px;
 }
 
-/* Button style */
 .contact-form button {
   background-color: #007bff;
   color: white;
-  padding: 10px 22px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 5px;
-  font-size: 15px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -173,14 +166,13 @@ table tr:nth-child(even) {
   background-color: #0056b3;
 }
 
-/* Responsive tweaks (optional) */
-@media (max-width: 600px) {
-  .contact-form {
-    padding: 15px;
-    margin: 20px;
-  }
+/* Footer */
+#foot01 {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
+  font-size: 14px;
 }
-
 
 .order-form {
   max-width: 600px;
