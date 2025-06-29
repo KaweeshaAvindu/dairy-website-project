@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html>
-
 <head>
+  <meta charset="UTF-8">
   <title>Contact Us</title>
   <link href="site.css" rel="stylesheet">
 </head>
 
 <body>
 
- <div class="navbar">
+<div class="navbar">
   <a href="index.html">Home page</a>
   <a href="About_us.html">About</a>
   <a href="Contact_Us.html">Contact Us</a>
@@ -15,14 +16,26 @@
   <img src="LOGO.jpg" class="hello">
 </div>
 
-
-
 <div id="main">
   <h1>Contact Us</h1>
+
+  <form action="#" method="post" class="contact-form">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+
   <footer id="foot01"></footer>
 </div>
 
 <script src="script.js"></script>
 
 </body>
-</html> 
+</html>
